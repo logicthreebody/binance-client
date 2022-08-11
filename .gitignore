@@ -1,2 +1,10 @@
+#忽略测试的配置文件
+/src/test/java/com/binance/client/examples/constants/PrivateConfig.java
+PrivateConfig.java
 #忽略文件
+.classpath
+.project
+.settings/
+target/
 *.log
+
