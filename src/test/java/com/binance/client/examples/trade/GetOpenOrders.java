@@ -10,7 +10,7 @@ public class GetOpenOrders {
         RequestOptions options = new RequestOptions();
         SyncRequestClient syncRequestClient = SyncRequestClient.create(PrivateConfig.API_KEY, PrivateConfig.SECRET_KEY,
                 options);
-        System.out.println(syncRequestClient.getOpenOrders("BTCUSDT"));
+        System.out.println(syncRequestClient.getOpenOrders("ADAUSDT"));
         // System.out.println(syncRequestClient.getOpenOrders(null));
     }
 }

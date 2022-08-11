@@ -19,6 +19,6 @@ public class AddIsolatedPositionMargin {
         SyncRequestClient syncRequestClient = SyncRequestClient.create(PrivateConfig.API_KEY, PrivateConfig.SECRET_KEY,
                 options);
 
-        System.out.println(syncRequestClient.addIsolatedPositionMargin("BTCUSDT", INCREASE_MARGIN_TYPE, "100", PositionSide.BOTH));
+        System.out.println(syncRequestClient.addIsolatedPositionMargin("ADAUSDT", INCREASE_MARGIN_TYPE, "100", PositionSide.BOTH));
     }
 }

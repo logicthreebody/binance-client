@@ -10,15 +10,15 @@ public class BinanceApiConstants {
     /**
      * REST API base URL.
      */
-//    public static final String API_BASE_URL = "https://fapi.binance.com";
+    public static final String API_BASE_URL = "https://fapi.binance.com";
 //	testnet的 REST baseurl 为 "https://testnet.binancefuture.com"
-    public static final String API_BASE_URL = "https://testnet.binancefuture.com";
+//    public static final String API_BASE_URL = "https://testnet.binancefuture.com";
     /**
      * Streaming API base URL.
      */
-//    public static final String WS_API_BASE_URL = "wss://fstream.binance.com/ws";
+    public static final String WS_API_BASE_URL = "wss://fstream.binance.com/ws";
 //    testnet的 Websocket baseurl 为 "wss://stream.binancefuture.com"
-    public static final String WS_API_BASE_URL = "wss://stream.binancefuture.com";
+//    public static final String WS_API_BASE_URL = "wss://stream.binancefuture.com";
 
     /**
      * HTTP Header to be used for API-KEY authentication.

@@ -10,6 +10,6 @@ public class GetOrderBook {
         RequestOptions options = new RequestOptions();
         SyncRequestClient syncRequestClient = SyncRequestClient.create(PrivateConfig.API_KEY, PrivateConfig.SECRET_KEY,
                 options);
-        System.out.println(syncRequestClient.getOrderBook("BTCUSDT", null));
+        System.out.println(syncRequestClient.getOrderBook("ADAUSDT", null));
     }
 }
